@@ -1,0 +1,39 @@
+/*==========================
+	Custom css
+==========================*/
+
+.label-visitor {
+    width: 160px;
+    /*left: 32%;*/
+    padding: 11px 15px;
+    border-radius: 50px;
+    bottom: -6px;
+}
+
+.label-contact {
+	margin-bottom: 70px;
+}
+.scroltop-position {
+		position: sticky;
+    	margin-left: 12px;
+	}
+
+@media only screen and (max-width: 576px) {
+
+	.label-visitor {
+	    width: 147px;
+	    left: 50%;
+	    padding: 11px 15px;
+	    border-radius: 50px;
+	    bottom: -6px;
+	}
+
+	.label-contact {
+		margin-bottom: 70px;
+	}
+
+	.scroltop-position {
+		position: sticky;
+    	margin-left: 12px;
+	}
+}
